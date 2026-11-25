@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "void_dimension",
+  "version": "${version}",
+  "name": "Pusty Wymiar",
+  "description": "Dodaje pusty wymiar dostepny komenda /void.",
+  "authors": [
+    "Copilot"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pl.example.voiddimension.VoidDimensionMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
